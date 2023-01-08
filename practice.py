@@ -4,7 +4,7 @@ def std_weight(height, gender):
     else:
         return height * height * 21
 
-height = 179
+height = 180
 gender = "women"
 weight = round(std_weight(height / 100, gender), 2)
 
