@@ -5,7 +5,8 @@ def std_weight(height, gender):
         return height * height * 21
 
 height = 179
-gender = "men"
+gender = "women"
 weight = round(std_weight(height / 100, gender), 2)
 
 print(f"height {height} {gender} standard weight is {weight}kg.")
+
